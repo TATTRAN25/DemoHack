@@ -25,7 +25,7 @@
                   <th scope="row">{{ $user->id }}</th>
                   <td>{{ $user->name }}</td>
                   <td>{{ $user->email }}</td>
-                  <td>{{ $user->favorities }}</td>
+                  <td>{!! $user->favorities !!}</td>
                   <td>
                     <div class="row">
                       <div class="col ">
